@@ -19,23 +19,25 @@
       <link href="http://postach.io/static/themes/_assets/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet">
     <![endif]-->
 
-    <!--
+    
     <style>
-      /**
-       * Your custom override CSS goes here. If you wanted to override the default link colour and hover state, you would do this:
-       *
-       *  a {
-       *      color: #333; /* Override the default colour with a not-quite-black that is easy on the eyes on white screens */
-       *  }
-       *
-       *  a:hover {
-       *      color: #545454; /* This will now change the hover state as well */
-       *  }
-       *
-       *  You can put anything you want to override in here, so be creative!
-       */
+       a, a:hover {
+            color: #b7442d; /*normal links*/
+         }
+         div.post h2 a:hover, a:visited { /*Hover on Title of Main Article*/
+            color: #b7442d;
+         }
+         div.post p.read-more a, div.post p.back a { /*Read more link*/
+            color: #b7442d;
+         }
+         div.post ul.post-tags li a { /*Article Meta Tag Normal State*/
+            background-color: #b7442d;
+         }
+         div.header div.title ul.social li a:hover { /*Social icons Hover State*/
+            background-color: #b7442d;
+         }
     </style>
-    -->
+
 
     {% if site.analytics %}
     <script>
